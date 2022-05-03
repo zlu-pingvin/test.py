@@ -540,3 +540,46 @@
 # h = min // 60
 # m = min - (h * 60)
 # print(h, m)
+
+# n = int(input())
+# count = 0
+# time = 1110
+# for i in range(n):
+#     x, y = input().split()
+#     x, y = int(x) * 60, int(y)
+#     if (x + y) <= time:
+#         count += 1
+# print(count)
+
+# n = int(input())
+# count = 0
+# while n > 0:
+#     if n % 5 == 0 or n % 9 == 0:
+#         count += 1
+#     n = int(input())
+# print(count)
+
+# n = int(input())
+# count = 0
+# while n != 0:
+#     if len(str(n)) == 2:
+#         if n % 8 == 0:
+#             count += 1
+#     n = int(input())
+# print(count)
+
+# n = int(input())
+# count = 0
+# while n != 0:
+#     if n % 10 == 2 and n % 4 == 0:
+#         count += 1
+#     n = int(input())
+# print(count)
+
+# n = int(input())
+# count = 0
+# while n != 0:
+#     if n % 6 == 0 or n % 11 == 0:
+#         count += 1
+#     n = int(input())
+# print(count)

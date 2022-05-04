@@ -584,4 +584,3 @@
 #     n = int(input())
 # print(count)
 
-print(2+5+1)
